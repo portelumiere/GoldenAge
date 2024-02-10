@@ -26,7 +26,7 @@
                 // Set the style of the emoji picker dynamically
                 emojiPicker.style.position = 'absolute';
                 emojiPicker.style.bottom = `${chatInput.offsetHeight+15}px`; // Position above the chat input
-                emojiPicker.style.left = `${chatInput.offsetCenter}px`; // Center horizontally
+                emojiPicker.style.left = `50%`; // Center horizontally
                 emojiPicker.style.transform = 'translateX(-50%)';
                 emojiPicker.style.width = `${chatInput.offsetWidth}px`; // Set width to match chat input
             }
